@@ -1,0 +1,63 @@
+/* Overall Body Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Simple, clean font */
+    background-color: #E6E6FA; /* Lavender background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center; /* Centers the text and content */
+}
+
+/* Container for the Card */
+.container {
+    max-width: 600px;
+    margin: 40px auto; /* Centers the div and gives some margin from the top */
+    background-color: #FFF; /* White background for the content */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* Subtle shadow for 3D effect */
+}
+
+/* Headings */
+h1 {
+    color: #BA55D3; /* Medium orchid, close to lavender for contrast */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Paragraphs for Messages */
+p {
+    font-size: 16px; /* Readable font size */
+    line-height: 1.6; /* Spacing between lines for readability */
+    margin-bottom: 15px; /* Space below each paragraph */
+}
+
+/* Styling for Emojis and Images */
+.emoji {
+    font-size: 24px; /* Larger size for visibility */
+    line-height: 1.5; /* Adjust line height for emoji alignment */
+}
+
+img {
+    max-width: 100%; /* Makes sure the image is not bigger than its container */
+    height: auto; /* Keeps the image aspect ratio intact */
+    margin-top: 20px; /* Margin on the top for spacing */
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+/* Style for Personal Message Section */
+.personal-message {
+    background-color: #F8F8FF; /* Light lavender for emphasis */
+    padding: 15px;
+    margin-top: 20px; /* Space from previous content */
+    border-radius: 8px; /* Consistency in design with rounded corners */
+    border: 2px solid #BA55D3; /* Border that matches headings */
+}
+
+/* Link Styles */
+a {
+    color: #BA55D3; /* Match the heading color */
+    text-decoration: none; /* Removes underline from links */
+}
+a:hover {
+    text-decoration: underline; /* Underline on hover for clarity */
+}
